@@ -41,7 +41,6 @@ const App = () => {
     <div className="flex flex-col items-center mt-8">
       <h1 className="text-[1.5rem] mb-[40px]">Credit Card Validator</h1>
       <div className="space-x-2">
-        <ToastContainer />
         <input
           id="1"
           maxLength={4}
@@ -81,6 +80,7 @@ const App = () => {
       >
         Check
       </button>
+      <ToastContainer />
     </div>
   );
 };
